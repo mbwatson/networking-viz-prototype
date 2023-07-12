@@ -10,7 +10,8 @@
     "clean": "rm -rf dist",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
     "generate": "node generate-content.js",
-    "test": "jest"
+    "test": "jest",
+    "deploy": "NODE_ENV=production webpack && gh-pages -d dist"
   },
   "devDependencies": {
     "@babel/core": "^7.18.2",
@@ -27,6 +28,7 @@
     "eslint-plugin-react": "^7.30.0",
     "eslint-webpack-plugin": "^3.1.1",
     "faker": "^6.6.6",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.3.2",
     "jest": "^29.6.1",
     "mini-css-extract-plugin": "^2.6.0",
