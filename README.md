@@ -35,8 +35,8 @@ See types for these fields below, with their necessity and uniquess indicated.
 - **Person**
 
   - `id` : `String`, required, unique
-  - `name` : `String`
-  - `organization_id` : `String`
+  - `name` : `String`, required
+  - `organization_id` : `String`, required
 
 - **Organization**
 
