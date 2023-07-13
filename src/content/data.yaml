@@ -1,122 +1,171 @@
 people:
-  - id: rick-armstrong
-    name: Rick Armstrong
-    organization_id: krajcik-ferry-and-murray
-  - id: adela-wilderman
-    name: Adela Wilderman
-    organization_id: weber-group
-  - id: gwen-gutkowski
-    name: Gwen Gutkowski
-    organization_id: weber-group
-  - id: garland-king
-    name: Garland King
-    organization_id: weber-group
-  - id: yvette-bernier-barrows
-    name: Yvette Bernier-Barrows
-    organization_id: howell-lang-and-heidenreich
-  - id: cierra-cassin
-    name: Cierra Cassin
-    organization_id: bosco-llc
-  - id: orrin-bode
-    name: Orrin Bode
-    organization_id: rau---abernathy
-  - id: geo-schuppe
-    name: Geo Schuppe
-    organization_id: keeling---king
-  - id: kallie-emard
-    name: Kallie Emard
-    organization_id: keeling---king
-  - id: kiel-oberbrunner
-    name: Kiel Oberbrunner
-    organization_id: krajcik-ferry-and-murray
-  - id: kamryn-torphy
-    name: Kamryn Torphy
-    organization_id: weber-group
-  - id: ophelia-schmidt
-    name: Ophelia Schmidt
-    organization_id: krajcik-ferry-and-murray
-  - id: ally-armstrong
-    name: Ally Armstrong
-    organization_id: keeling---king
-  - id: isaias-ohara
-    name: Isaias O'Hara
-    organization_id: bosco-llc
-  - id: deja-bradtke
-    name: Deja Bradtke
-    organization_id: bosco-llc
-  - id: madge-turner
-    name: Madge Turner
-    organization_id: bosco-llc
-  - id: retha-stehr
-    name: Retha Stehr
-    organization_id: krajcik-ferry-and-murray
-  - id: marisa-grant
-    name: Marisa Grant
-    organization_id: howell-lang-and-heidenreich
-  - id: unique-balistreri
-    name: Unique Balistreri
-    organization_id: keeling---king
-  - id: eliezer-langosh
-    name: Eliezer Langosh
-    organization_id: howell-lang-and-heidenreich
-  - id: reese-weimann
-    name: Reese Weimann
-    organization_id: bosco-llc
-  - id: julie-rosenbaum
-    name: Julie Rosenbaum
-    organization_id: weber-group
-  - id: federico-bogisich
-    name: Federico Bogisich
-    organization_id: krajcik-ferry-and-murray
-  - id: vito-hintz
-    name: Vito Hintz
-    organization_id: howell-lang-and-heidenreich
-  - id: raegan-bechtelar
-    name: Raegan Bechtelar
-    organization_id: bosco-llc
-  - id: makenna-spencer
-    name: Makenna Spencer
-    organization_id: keeling---king
-  - id: lera-mckenzie
-    name: Lera McKenzie
-    organization_id: bosco-llc
-  - id: ethan-hand
-    name: Ethan Hand
-    organization_id: simonis-schamberger-and-breitenberg
-  - id: jerrod-strosin
-    name: Jerrod Strosin
-    organization_id: weber-group
-  - id: karlee-rohan
-    name: Karlee Rohan
-    organization_id: rau---abernathy
-  - id: elvis-kilback
-    name: Elvis Kilback
-    organization_id: howell-lang-and-heidenreich
-  - id: rosie-kassulke
-    name: Rosie Kassulke
-    organization_id: simonis-schamberger-and-breitenberg
+  - id: immanuel-reinger
+    name: Immanuel Reinger
+    organization_ids:
+      - wuckert---feeney
+  - id: edmond-schmitt
+    name: Edmond Schmitt
+    organization_ids:
+      - cummerata---aufderhar
+      - wuckert---feeney
+  - id: elfrieda-orn
+    name: Elfrieda Orn
+    organization_ids:
+      - grant-gulgowski-and-padberg
+  - id: isaias-white
+    name: Isaias White
+    organization_ids:
+      - langworth-inc
+      - howe-and-sons
+  - id: lera-ankunding
+    name: Lera Ankunding
+    organization_ids:
+      - gutkowski-and-sons
+  - id: candido-mante
+    name: Candido Mante
+    organization_ids:
+      - howe-and-sons
+      - cummerata---aufderhar
+  - id: hazel-stehr
+    name: Hazel Stehr
+    organization_ids:
+      - langworth-inc
+      - legros-murazik-and-flatley
+  - id: lavina-prohaska
+    name: Lavina Prohaska
+    organization_ids:
+      - gutkowski-and-sons
+  - id: antonetta-kohler
+    name: Antonetta Kohler
+    organization_ids:
+      - gutkowski-and-sons
+      - legros-murazik-and-flatley
+  - id: estel-brown
+    name: Estel Brown
+    organization_ids:
+      - howe-and-sons
+      - legros-murazik-and-flatley
+  - id: bennett-hackett
+    name: Bennett Hackett
+    organization_ids:
+      - howe-and-sons
+      - gutkowski-and-sons
+  - id: danyka-simonis
+    name: Danyka Simonis
+    organization_ids:
+      - langworth-inc
+  - id: ellie-damore
+    name: Ellie D'Amore
+    organization_ids:
+      - jast-and-sons
+      - langworth-inc
+  - id: helmer-robel
+    name: Helmer Robel
+    organization_ids:
+      - cummerata---aufderhar
+  - id: jamar-lang
+    name: Jamar Lang
+    organization_ids:
+      - jast-and-sons
+      - gutkowski-and-sons
+  - id: franz-cruickshank
+    name: Franz Cruickshank
+    organization_ids:
+      - wuckert---feeney
+  - id: kimberly-pfannerstill
+    name: Kimberly Pfannerstill
+    organization_ids:
+      - wuckert---feeney
+  - id: gregoria-boyer
+    name: Gregoria Boyer
+    organization_ids:
+      - langworth-inc
+  - id: vincenzo-kris
+    name: Vincenzo Kris
+    organization_ids:
+      - wuckert---feeney
+      - howe-and-sons
+  - id: marlon-sporer
+    name: Marlon Sporer
+    organization_ids:
+      - jast-and-sons
+  - id: tyra-waelchi
+    name: Tyra Waelchi
+    organization_ids:
+      - jast-and-sons
+      - cummerata---aufderhar
+  - id: armani-stokes
+    name: Armani Stokes
+    organization_ids:
+      - langworth-inc
+      - grant-gulgowski-and-padberg
+  - id: camilla-friesen
+    name: Camilla Friesen
+    organization_ids:
+      - legros-murazik-and-flatley
+  - id: chandler-osinski
+    name: Chandler Osinski
+    organization_ids:
+      - langworth-inc
+      - grant-gulgowski-and-padberg
+  - id: gilberto-ritchie
+    name: Gilberto Ritchie
+    organization_ids:
+      - legros-murazik-and-flatley
+      - gutkowski-and-sons
+  - id: cleta-jast
+    name: Cleta Jast
+    organization_ids:
+      - legros-murazik-and-flatley
+      - langworth-inc
+  - id: jean-nienow
+    name: Jean Nienow
+    organization_ids:
+      - gutkowski-and-sons
+  - id: brennan-macejkovic
+    name: Brennan Macejkovic
+    organization_ids:
+      - langworth-inc
+  - id: madeline-sporer
+    name: Madeline Sporer
+    organization_ids:
+      - legros-murazik-and-flatley
+  - id: raven-hahn
+    name: Raven Hahn
+    organization_ids:
+      - howe-and-sons
+      - gutkowski-and-sons
+  - id: mike-hackett
+    name: Mike Hackett
+    organization_ids:
+      - gutkowski-and-sons
+  - id: friedrich-auer-bruen
+    name: Friedrich Auer-Bruen
+    organization_ids:
+      - legros-murazik-and-flatley
+      - langworth-inc
 organizations:
-  - name: Keeling - King
-    id: keeling---king
-    color: rgb(16, 78, 82)
-  - name: Howell, Lang and Heidenreich
-    id: howell-lang-and-heidenreich
-    color: rgb(242, 40, 50)
-  - name: Oberbrunner - Haley
-    id: oberbrunner---haley
-    color: rgb(178, 87, 180)
-  - name: Weber Group
-    id: weber-group
-    color: rgb(11, 219, 180)
-  - name: Rau - Abernathy
-    id: rau---abernathy
-    color: rgb(173, 189, 102)
-  - name: Krajcik, Ferry and Murray
-    id: krajcik-ferry-and-murray
-    color: rgb(122, 242, 167)
-  - name: Simonis, Schamberger and Breitenberg
-    id: simonis-schamberger-and-breitenberg
-    color: rgb(202, 226, 235)
-  - name: Bosco LLC
-    id: bosco-llc
-    color: rgb(245, 149, 80)
+  - name: Howe and Sons
+    id: howe-and-sons
+    color: rgb(9, 238, 177)
+  - name: Gutkowski and Sons
+    id: gutkowski-and-sons
+    color: rgb(159, 109, 35)
+  - name: Cummerata - Aufderhar
+    id: cummerata---aufderhar
+    color: rgb(241, 17, 166)
+  - name: Wuckert - Feeney
+    id: wuckert---feeney
+    color: rgb(135, 16, 29)
+  - name: Grant, Gulgowski and Padberg
+    id: grant-gulgowski-and-padberg
+    color: rgb(50, 112, 210)
+  - name: Jast and Sons
+    id: jast-and-sons
+    color: rgb(238, 117, 150)
+  - name: Legros, Murazik and Flatley
+    id: legros-murazik-and-flatley
+    color: rgb(59, 122, 188)
+  - name: Langworth Inc
+    id: langworth-inc
+    color: rgb(215, 7, 244)

@@ -70,8 +70,9 @@ function generatePerson() {
   return {
     id,
     name: `${first_name} ${last_name}`,
-    organization_id: faker.helpers.arrayElement(
+    organization_ids: faker.helpers.arrayElements(
       organizations.map(({ id }) => id),
+      { min : 1, max: 2 },
     ),
   };
 }

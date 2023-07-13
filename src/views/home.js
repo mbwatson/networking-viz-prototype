@@ -8,8 +8,8 @@ import { SizeMe } from "react-sizeme";
 const createPeopleNode = ({ id, name }) => ({
   id,
   name,
-  val: 5,
-  color: "coral",
+  val: 2,
+  color: '#666',
 });
 
 const createOrganizationNode = ({ id, name, color }) => ({
@@ -27,16 +27,21 @@ export const HomeView = () => {
       ...people.map(createPeopleNode),
       ...organizations.map(createOrganizationNode),
     ];
-  }, []);
+  }, [people, organizations]);
 
   const links = useMemo(() => {
-    return [
-      ...people.map(({ id, organization_id }) => ({
-        source: id,
-        target: organization_id,
-      })),
-    ];
-  }, []);
+    return people.reduce((acc, person) => {
+      return [
+        ...acc,
+        ...person.organization_ids.map(orgId => ({
+          source: person.id,
+          target: orgId,
+        })),
+      ]
+    }, []);
+  }, [people, organizations]);
+
+  console.log(links)
 
   return (
     <div
