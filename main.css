@@ -19,18 +19,6 @@
   background-color: rgba(255,255,255,0.13333);
 }
 
-@-webkit-keyframes irk5LWQUgwiwHyngf6sA {
-  0% {
-    transform: rotate(0deg);
-  }
-  33% {
-    transform: rotate(65deg);
-  }
-  100% {
-    transform: rotate(60deg);
-  }
-}
-
 @keyframes irk5LWQUgwiwHyngf6sA {
   0% {
     transform: rotate(0deg);
@@ -44,8 +32,7 @@
 }
 
 .k27ICnegkdYOMqTs7nxU {
-  -webkit-animation: irk5LWQUgwiwHyngf6sA infinite 1000ms ease-out;
-          animation: irk5LWQUgwiwHyngf6sA infinite 1000ms ease-out;
+  animation: irk5LWQUgwiwHyngf6sA infinite 1000ms ease-out;
 }
 
 .H4OudyOnlIega5lFpVGr {
